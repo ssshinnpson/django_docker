@@ -7,7 +7,7 @@ services:
     expose:
       - "8000"
   nginx:
-    image: ngnix:alpine
+    image: nginx:alpine
     container_name: nginx_proxy
     ports:
       - "8080:80"
